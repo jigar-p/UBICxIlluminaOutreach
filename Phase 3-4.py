@@ -12,5 +12,18 @@ def printingLists(sampleList[]):
     print sampleList
 
 def makeList():
-  while raw_input("Do you want to add an element? (Y or N) " == "Y"
+  list=[]
+  while raw_input("Do you want to add an element? (Y or N) ") == "Y":
+    list.append(raw_input("Type what you want added to the list: "))
+  return list
+
+def updateList():
+  
+  
+def remove():
+
     
+def selectElement():
+  
+  
+  
